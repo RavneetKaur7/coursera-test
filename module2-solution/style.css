@@ -1,0 +1,101 @@
+* {
+  			box-sizing: border-box;
+        		font-family: "Times New Roman", Georgia, Serif;
+		  }
+
+		 p.name
+		 {
+		 	border: 1px solid black;
+		 	padding: 2px 12px 2px 12px;
+		 	margin: 0px;
+		 	float: right;
+      			font-size: 1.25em;
+      			position: absolute;
+      			top: 0px;
+      			right: 0px;
+      			width: 200px;
+      			text-align: center;
+      			font-weight: 700;
+		 } 
+		 .pos
+		 {
+		 	position: relative;
+		 }
+
+		h1 
+		{
+ 		color: #000000;
+ 		text-align: center;
+ 		font: fantasy;
+    		font-size: 2.25em;
+    		font-weight: bold;
+		}
+
+		div
+		{
+    		background-color: #ccff99;
+		}
+
+		body
+		{
+			margin: 5px;
+		}
+
+		.row 
+		{
+  		width: 100%;
+		}
+
+		@media (min-width: 768px) and (max-width: 991.5px) 
+		{
+			.col-md-6,.col-md-12
+			{
+    				float: left;
+    				border: 1px solid black;
+    				padding: 15px 5px 5px 5px;
+  			}
+  			.col-md-6 
+  			{
+    				width: 48%;
+    				margin: 10px 6px 5px 5px;
+  			}
+  			.col-md-12 
+  			{
+    				width: 97%;
+    				margin: 6px 5px 5px 5px;
+  			}
+		}
+
+
+		@media (min-width: 992px) 
+		{
+			.col-lg-4
+			{
+			  	float: left;
+    				border: 1px solid green;
+    				width: 32%;
+    				margin: 5px;
+    				padding: 5px;
+        			padding-top: 15px;
+    			}
+  		}
+
+  		@media (max-width: 767.5px) 
+		 {
+			.col-sm-12
+			{
+			  	float: left;
+    				border: 1px solid green;
+    				width: 97%;
+    				margin: 10px;
+    				padding: 10px;
+       				padding-top: 15px;
+    			}
+  		}
+
+      .org
+      {background-color: #ffad33;}
+      .red
+      {background-color: #ff3333;}
+      .blu
+      {background-color: #669999;}
